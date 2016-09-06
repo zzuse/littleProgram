@@ -1,0 +1,1 @@
+MKFILES=logtest.mk
