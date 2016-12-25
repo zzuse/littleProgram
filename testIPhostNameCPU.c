@@ -10,6 +10,7 @@
 #include <net/if.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
+
 int get_hostinfo(char* name, char* ip, char* id) {
     struct hostent *hp = NULL;
     char szName[255] = {0};
@@ -40,7 +41,7 @@ int get_hostinfo(char* name, char* ip, char* id) {
 }
 
 int get_cpucount() {
-        return (int)sysconf(_SC_NPROCESSORS_ONLN);
+    return (int)sysconf(_SC_NPROCESSORS_ONLN);
 }
 
 int main(int argc, char const* argv[])
