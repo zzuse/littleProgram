@@ -1,0 +1,10 @@
+*.i
+a.out
+bin
+logtest
+redis
+test
+*.s
+testamd64
+testi386
+threadMax
